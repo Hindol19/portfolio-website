@@ -1,1 +1,25 @@
 @import "../../css-config/mixins.scss";
+.footer-container {
+  height: 200px;
+  font-family: "Inconsolata", monospace;
+  background-color: #21314f;
+  color: white;
+  .footer-layout {
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    // border: 2px solid red;
+    // align-items: center;
+    max-width: 1400px;
+    // height: 100%;
+    div {
+      margin: 2%;
+      font-size: 20px;
+      //   border: 1px solid rgb(255, 255, 255);
+      padding: 2%;
+      background-color: rgb(44, 44, 44);
+      //   border-radius: 50px;
+    }
+  }
+}
