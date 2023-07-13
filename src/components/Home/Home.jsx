@@ -26,6 +26,10 @@ const Home = () => {
           <Project />
         </div>
       </div>
+      <div className="home-contactSection">
+        <h2>Let's Get In Touch</h2>
+        <div className="contact-button">Contact Me</div>
+      </div>
     </div>
   );
 };
