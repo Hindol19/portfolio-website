@@ -1,0 +1,23 @@
+@import "../../css-config/mixins.scss";
+.links-container {
+  z-index: 900;
+  position: fixed;
+  height: 300px;
+  width: 100px;
+  top: calc(50% - 150px);
+  background-color: rgba(0, 0, 0, 0.518);
+  border-radius: 0px 20px 20px 0px;
+  backdrop-filter: blur(5px);
+  .links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    svg {
+      font-size: 44px;
+    }
+  }
+}
