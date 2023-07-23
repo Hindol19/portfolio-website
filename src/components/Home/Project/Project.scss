@@ -9,7 +9,7 @@
   align-items: center;
   .project-img {
     height: 100%;
-    width: 100%;
+    width: 50%;
     // border: 2px solid red;
     overflow: hidden;
     display: flex;
@@ -34,6 +34,7 @@
     }
   }
   .project-content {
+    width: 50%;
     color: white;
     padding: 4%;
     .project-title {
@@ -42,7 +43,7 @@
     }
   }
   .right-link {
-    width: 150px;
+    width: 100px;
     height: 250px;
     background-color: black;
     border-radius: 10px 0px 0px 10px;

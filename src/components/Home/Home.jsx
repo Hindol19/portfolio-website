@@ -13,10 +13,10 @@ const Home = () => {
     <div className="home-container ">
       <div className="home-layout">
         <div className="my-image">
-          <img className="image-mobile" src={pic} alt="" />
+          <img className="image-desktop" src={pic} alt="" />
         </div>
-        <div className="my-name">I am Hindol Banerjee</div>
         <div className="my-desc">Freelance Web-Designier and Developer</div>
+        <div className="my-name">I am Hindol Banerjee</div>
       </div>
 
       <div className="about-section">

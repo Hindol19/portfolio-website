@@ -24,15 +24,16 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="navbar-container">
-      <div className="navbar-layout">
-        <div className="left">Home</div>
-        <div className="right">
-          <div>About Me</div>
-          <div>My Works</div>
-          <div>Contact</div>
+      {!scrolled ? (
+        <div className="navbar-layout">
+          <div className="left">Home</div>
+          <div className="right">
+            <div>About Me</div>
+            <div>My Works</div>
+            <div>Contact</div>
+          </div>
         </div>
-      </div>
-      {scrolled && (
+      ) : (
         <div className="sidebar-layout">
           <div
             className="sidebar-button"
