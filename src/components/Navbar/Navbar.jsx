@@ -16,7 +16,7 @@ const Navbar = () => {
       setScrolled(false);
     }
   };
-
+  console.log(scrolled);
   useEffect(() => {
     //The useEffect Hook does a specific task for the first time after loading.
     window.addEventListener("scroll", handleScroll);
